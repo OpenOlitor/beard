@@ -30,7 +30,7 @@ libraryDependencies ++= {
                                                                               exclude("org.antlr", "ST4")
                                                                               exclude("org.antlr", "antlr-runtime"),
     "org.scala-lang"               % "scala-reflect"                        % scalaVersion.value,
-    "org.scala-lang.modules"      %% "scala-xml"                            % "1.3.0",
+    "org.scala-lang.modules"      %% "scala-xml"                            % "2.1.0",
     "org.slf4j"                    % "slf4j-api"                            % "1.7.30",
     "ch.qos.logback"               % "logback-classic"                      % "1.1.11",
     "org.scalatest"               %% "scalatest"                            % "3.1.1"          % "test",
