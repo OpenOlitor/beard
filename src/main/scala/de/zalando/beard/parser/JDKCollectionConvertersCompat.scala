@@ -16,8 +16,7 @@ object JDKCollectionConvertersCompat {
   object Scope2 {
     import scala.collection.{JavaConverters => CollectionConverters}
     object Inner {
-      import scala._
-      import jdk.CollectionConverters
+      import scala.jdk.CollectionConverters
       val Converters = CollectionConverters
     }
   }
